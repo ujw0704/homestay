@@ -1,0 +1,46 @@
+.landing-section {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 50px;
+    background-image: 
+      linear-gradient(105deg,
+      rgba(25, 182, 90, 0.5) 0%,
+      rgba(55, 154, 176, 0.9) 50%,
+      transparent 50%),
+      url("./darjeeling/kc5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; 
+    margin: 0; 
+  }
+  
+  .contentes {
+    text-align: center; 
+  }
+  
+  .btns {
+    margin-top: 20px; 
+  }
+  .best-button {
+    background-color: #4682b4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+  }
+  
+  .best-button:hover {
+    background-color: #606cbc;
+  }
+  
+  

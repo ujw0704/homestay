@@ -1,0 +1,57 @@
+.Header-container {
+    display: flex;
+    background-color: rgb(40, 172, 77); 
+    height: 60px; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 20px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.683); 
+}
+.Header-container > .Headercont {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center; 
+    width: 100%; 
+}
+.Headercont > ul {
+    display: flex; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.Headercont > ul > li {
+    margin: 0 15px; 
+}
+
+.Headercont > ul > li > a {
+    color: #fff; 
+    text-decoration: none; 
+    font-weight: bold; 
+    padding: 10px 15px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.Headercont > ul > li > a:hover {
+    background-color: #34a853; 
+    color: #000; 
+    border-radius: 5px; 
+}
+@media (max-width: 768px) {
+    .Header-container {
+        height: auto; /* Adjust height for smaller screens */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .Headercont {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+
+    .Headercont > ul {
+        flex-direction: column; /* Stack list items vertically */
+    }
+
+    .Headercont > ul > li {
+        margin: 10px 0; /* Space between list items */
+    }
+}

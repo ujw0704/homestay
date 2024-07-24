@@ -1,0 +1,99 @@
+.we-are-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto; /* Height set to auto for responsiveness */
+    text-align: center;
+  }
+  
+  /* Section styling */
+  .section {
+    width: 100%;
+    height: auto; /* Height set to auto for responsiveness */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Allow sections to wrap on smaller screens */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 50px; /* Add margin between sections */
+  }
+  
+  /* Image styling */
+  .about-us-image,
+  .history-image {
+    width: 50%;
+    height: auto; /* Allow image to adjust height based on width */
+  }
+  
+  .history-image{
+    width:620px;
+     height:433;
+  }
+  .history-image img{
+    width:100% ;
+    height:100% ;
+    object-fit: cover;
+  }
+  .about-us-image{
+    width:644;
+     height:458;
+  }
+  .about-us-image img{
+    width:100% ;
+    height:100% ;
+    object-fit: cover;
+  }
+  /* Information container */
+  .about-us-info,
+  .history-info {
+    width: 50%;
+    text-align: center; /* Center text for smaller screens */
+    padding: 0 20px; /* Add padding for smaller screens */
+  }
+  
+  /* Heading styling */
+  .about-us-info h2,
+  .history-info h2 {
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
+  }
+  
+  /* Paragraph styling */
+  .about-us-info p,
+  .history-info p {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+  
+  /* Button styling */
+  .about-us-info a,
+  .history-info a {
+    display: inline-block;
+    background-color: #0c9143;
+    color: white;
+    width: 180px;
+    padding: 15px 0;
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    margin-top: 20px; /* Add margin between paragraphs and button */
+  }
+  
+  /* Hover effect */
+  .about-us-info a:hover,
+  .history-info a:hover {
+    background: #404140;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transform: translateY(10px);
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 860px) {
+    .about-us-image,
+    .history-image,
+    .about-us-info,
+    .history-info {
+      width: 100%; /* Adjust width for smaller screens */
+      padding: 20px; /* Add padding for smaller screens */
+    }
+  } 
+  

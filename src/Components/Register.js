@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import "./Register.css"
 import da from "./darjeeling/da.mp4"
-
+ import va from "./darjeeling/clip.mp4"
+ import ne from "./darjeeling/new.mp4"
 
 function Register() {
     const [formData, setFormData] = useState({
@@ -28,7 +29,9 @@ function Register() {
         <form onSubmit={handleSubmit}>
         <div className='register-Container'>
             <div className='video'>
-                <iframe width="250px" height="400" src={da} alt=""></iframe>
+                <iframe width="250px" height="400" src={va} alt="va"></iframe>
+                <iframe width="250px" height="400" src={da} alt="da"></iframe>
+                <iframe width="250px" height="400" src={ne} alt="ne"></iframe>
             </div>
             <div className='register'>
                 <div className='Register-input'>

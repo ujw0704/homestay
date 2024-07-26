@@ -12,6 +12,7 @@
 
 .video {
     flex-shrink: 0;
+    
     /* margin-left: 20px; */
 }
 
@@ -38,7 +39,7 @@
     box-shadow: 0 4px 30px rgba(39, 183, 44, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 2px solid rgba(33, 161, 152, 0.3)
+    border: 2px solid rgba(57, 178, 91, 0.3)
 }
 
 .register-button {

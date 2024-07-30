@@ -30,8 +30,8 @@ function Register() {
         <div className='register-Container'>
             <div className='video'>
                 <iframe width="250px" height="400" src={va} alt="va"></iframe>
-                <iframe width="250px" height="400" src={da} alt="da"></iframe>
-                <iframe width="250px" height="400" src={ne} alt="ne"></iframe>
+                {/* <iframe width="250px" height="400" src={da} alt="da"></iframe>
+                <iframe width="250px" height="400" src={ne} alt="ne"></iframe> */}
             </div>
             <div className='register'>
                 <div className='Register-input'>

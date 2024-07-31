@@ -12,7 +12,7 @@
 
 .video {
     flex-shrink: 0;
-    
+    background-color: black;
     /* margin-left: 20px; */
 }
 

@@ -1,45 +1,52 @@
 
 .register-Container {
+   
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    padding:  0 ,20px;
-    box-sizing: border-box;
+    
+    padding:  0 ,50px;
+   
     gap: 5rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .video {
     flex-shrink: 0;
-    background-color: black;
-    /* margin-left: 20px; */
+    
+    margin-bottom:1rem ;
 }
+   
+    
+    
 
 .register {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     max-width: 60%;
+    margin-bottom: 1.5rem;
+   
 }
 
 .Register-input {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    width: 30rem;
+    color: rgb(0, 164, 33);
 }
 
 .Register-input >input {
-    padding: 8px;
-    margin-top: 1.2rem;
-    border-radius: 5px;
-    border-bottom:5px solid #1a8fa6;
-    
+    padding: 0.5rem;
+    margin-top: 1rem;
+   
+    border-bottom:5px solid  #18E000;
     /* width: 100%; */
-    box-shadow: 0 4px 30px rgba(39, 183, 44, 0.1);
+    /* box-shadow: 0 4px 30px rgba(39, 183, 44, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 2px solid rgba(57, 178, 91, 0.3)
+    border: 2px solid rgba(57, 178, 91, 0.3) */
 }
 
 .register-button {
@@ -53,5 +60,5 @@
 }
 
 .register-button:hover {
-    background-color: #2ba457;
+    background-color:  #18E000;
 }

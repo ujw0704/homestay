@@ -28,7 +28,7 @@ function Footer() {
           <p>Privacy Policy</p>
           <p>Terms and Conditions</p>
         </div>
-        <div>
+        <div className='social'>
           <i>Facebook</i>
           
           <i>Whatsapp</i>

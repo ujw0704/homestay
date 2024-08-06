@@ -33,8 +33,11 @@
 }
 
 .Headercont > ul > li > a:hover {
+    backdrop-filter: blur(80%);
+   box-shadow:0 7px 10px 3px rgba(7, 158, 53, 0.839); ;
     background-color: #34a853; 
-    color: #000; 
+    color:ghostwhite; 
+    background-color: lightgray;
     border-radius: 5px; 
 }
 @media (max-width: 768px) {

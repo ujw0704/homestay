@@ -37,6 +37,7 @@ function Register() {
             </div>
             <div className='register'>
                 <div className='Register-input'>
+                    <label>Name</label>
                     <input
                         type='text'
                         name='name'
@@ -44,9 +45,9 @@ function Register() {
                         required
                         onChange={handleChange}
                     />
-                    <label>Name</label>
                 </div>
                 <div className='Register-input'>
+                    <label>Username</label>
                     <input
                         type='text'
                         name='username'
@@ -54,9 +55,9 @@ function Register() {
                         required
                         onChange={handleChange}
                     />
-                    <label>Username</label>
                 </div>
                 <div className='Register-input'>
+                    <label>Phone-Number</label>
                     <input
                         type='number'
                         name='number'
@@ -64,9 +65,9 @@ function Register() {
                         required
                         onChange={handleChange}
                     />
-                    <label>Phone Number</label>
                 </div>
                 <div className='Register-input'>
+                    <label>Password</label>
                     <input
                         type='password'
                         name='password'
@@ -74,7 +75,6 @@ function Register() {
                         required
                         onChange={handleChange}
                     />
-                    <label>Password</label>
                 </div>
         <button className='register-button' type='submit'>Register</button>
             </div>

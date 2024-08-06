@@ -41,7 +41,12 @@
 
 .Register-input >input {
     padding: 0.5rem;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border: none;
+    height: 2.5rem;
+  
+   
   
     
 }
@@ -49,7 +54,14 @@
     border-bottom: 0.5rem solid #18E000;
     border: 0px solid transparent(0, 0, 0, 0.0);
 }
+.Register-input>label{
+    
+    width:0.2rem;
+  
+    color:#18E000
+    /* background-color: #18E000; */
 
+}
 .register-button {
     margin-top: 20px;
     padding: 10px 20px;

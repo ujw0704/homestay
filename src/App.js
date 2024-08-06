@@ -6,7 +6,11 @@ import Header from "./Components/Header.js"
 import Contact from "./Components/Contact.js"
 import Login from "./Components/Login.js"
 import Register from "./Components/Register.js"
+import Booking from "./Components/Booking.js"
 import Footer from "./Components/Footer.js"
+
+
+
 
 function App() {
   return (
@@ -20,6 +24,7 @@ function App() {
       <Route path="about" element={<About/>}/>
       <Route path="contact" element={<Contact/>}/>
       <Route path="Register"element={<Register/>}/>
+      <Route path="Booking"element={<Booking/>}/>
 
      
       

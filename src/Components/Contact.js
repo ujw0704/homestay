@@ -3,6 +3,7 @@ import './Contact.css';
 import kc7 from './darjeeling/kc7.jpg';
 
 function Contact() {
+  
   const handleSubmit = (event) => {
     event.preventDefault();
     

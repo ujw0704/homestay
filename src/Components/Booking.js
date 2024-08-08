@@ -36,25 +36,25 @@ function Booking() {
 
   return (
 
-    <div>
+    <div className='BookingContainer'>
 
-      <div>
+      <div className='BookingInput'>
 <label>FirstName</label>
 <input type='text' name='Firstname'value={formData.FirstName} onChange={handleChange}/>
       </div>
-      <div>
+      <div className='BookingInput'>
         <label>Lastname</label>
         <input type='text' name="lastName"value={formData.LastName}onChange={handleChange}/>
       </div>
-      <div>
+      <div className='BookingInput'>
         <label>PhoneNumber</label>
         <input type='text'name='number'value={formData.Number}onChange={handleChange}/>
       </div>
-      <div>
+      <div className='BookingInput'>
         <label>Address</label>
         <input type='text'name='Address'value={formData.Address}onChange={handleChange}/>
       </div>
-      <div>
+      <div className='BookingDate'>
       <DatePicker selected={date} onChange={(date) => setDate(date)} />
         <div>
 

@@ -1,1 +1,60 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
 
+.BookingContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 0,50px;
+    background-image: url(./darjeeling/booking.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(229, 226, 220, 0.5);
+   
+}
+.BookingInput>label>input:hover{
+    color: #18E000;
+    font-weight: bold;
+    ;
+    
+}
+.BookingInput{
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    width: 30rem;
+
+}
+
+.BookingInput>input{
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border: none;
+    height: 2.5rem;
+}
+.BookingInput>:focus{
+    border-bottom: 0.5rem solid #18E000;
+    border: 0px solid transparent(0, 0, 0, 0.0);
+}
+.BookingDate{
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    width: 30rem;
+}
+.BookingDate>DatePicker{
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border: none;
+    height: 2.5rem;
+}

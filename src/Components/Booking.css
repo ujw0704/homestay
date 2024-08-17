@@ -58,3 +58,32 @@ box-sizing: border-box;
     border: none;
     height: 2.5rem;
 }
+.BookingInput>label{
+color: blue;
+}
+.BookingDate{
+    padding: 1rem;
+    
+    outline: none;
+    border: none;
+    height: 20rem;
+    gap:1rem;
+    
+}
+
+.react-datepicker__input-container>.value{
+    gap:1rem;
+    background-color: black;
+
+}
+
+
+.bookingbutton{
+    height: 2.5rem;
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+.bookingbutton:hover{
+    background-color: rgb(34, 165, 8);
+}

@@ -73,7 +73,7 @@ function Booking() {
         minDate={startDate}
         />
         </div>
-        <button type='Submit'>Submit</button>
+        <button className='bookingbutton' type='Submit'>Submit</button>
       </div>
       
     </div>

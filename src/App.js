@@ -7,6 +7,7 @@ import Contact from "./Components/Contact.js"
 import Login from "./Components/Login.js"
 import Register from "./Components/Register.js"
 import Booking from "./Components/Booking.js"
+import Product from "./Components/Product.js"
 import Footer from "./Components/Footer.js"
 
 
@@ -25,6 +26,7 @@ function App() {
       <Route path="contact" element={<Contact/>}/>
       <Route path="Register"element={<Register/>}/>
       <Route path="Booking"element={<Booking/>}/>
+      <Route path="Product" element={<Product/>}/>
 
      
       

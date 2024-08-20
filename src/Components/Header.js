@@ -24,6 +24,9 @@ function Header() {
             <li>
               <Link to="/Booking">Booking</Link>
             </li>
+            <li>
+              <Link  to ="/Product">Product</Link>
+            </li>
             </ul>
     </div>
     </div>

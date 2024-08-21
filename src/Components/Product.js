@@ -35,7 +35,7 @@ function Product() {
     
   return (
     <div>
-<img src={bambooshot} alt='bambo'/>
+<img src={smauc} alt='bambo'/>
     </div>
   )
 }

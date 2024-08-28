@@ -28,6 +28,14 @@ import whiterabbit from "./darjeeling/whiterabbit.png"
 function Product() {
    const [ product, setProduct] =useState([
 
+    {
+      id: 1,
+      name: 'Product 1',
+      price: 29.99,
+      image: khutt,
+      description: 'This is a great product 1'
+  },
+
    
 
 
@@ -35,7 +43,7 @@ function Product() {
     
   return (
     <div>
-<img src={smauc} alt='bambo'/>
+<img src={khutt} alt='bambo'/>
     </div>
   )
 }

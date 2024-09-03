@@ -36,6 +36,13 @@ function Product() {
       description: 'This is a great product 1'
   },
 
+  {
+    id: 1,
+    name: 'Product 1',
+    price: 29.99,
+    image: khutt,
+    description: 'This is a great product 1'
+},
    
 
 

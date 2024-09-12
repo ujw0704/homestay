@@ -22,7 +22,7 @@ import selroti from "./darjeeling/selroti.png";
 import smauc from "./darjeeling/smauc.png";
 import titwara from "./darjeeling/titwara.png";
 import whiterabbit from "./darjeeling/whiterabbit.png"
-
+import "./Product.css"
 
 
 function Product() {
@@ -206,13 +206,13 @@ function Product() {
    
     
   return (
-    <div>
+    <div className='productContainer'>
 {
   product.map((item,index)=>{
     return (
 
-    <div key={item.name}>
-<div>
+    <div  className ="productParent"key={item.name}>
+<div className='ProductImages'>
 <img src={item.image} alt={item.name} />
 <p>{item.description}</p>
 <p> price:RS{item.price}</p>

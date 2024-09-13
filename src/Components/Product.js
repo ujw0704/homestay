@@ -26,12 +26,12 @@ import "./Product.css"
 
 
 function Product() {
-   const [ product, setProduct] =useState([
+   const [ products, setProduct] =useState([
 
     {
       id: 1,
       name: 'Product 1',
-      price: 29.99,
+      price: 70,
       image: khutt,
       description: 'This is a great product 1'
   },
@@ -199,7 +199,7 @@ function Product() {
 
    function handleClick(e, item){
     e.preventDefault();
-    setProduct(item);
+    setProduct(item); 
     console.log(item);
   }
   
@@ -208,17 +208,17 @@ function Product() {
   return (
     <div className='productContainer'>
 {
-  product.map((item,index)=>{
+  products.map((item,index)=>{
     return (
 
     <div  className ="productParent"key={item.name}>
 <div className='ProductImages'>
 <img src={item.image} alt={item.name} />
-<p>{item.description}</p>
-<p> price:RS{item.price}</p>
+<h6>{item.description}</h6>
+<h2> RS :{item.price}</h2>
 </div>
 
-<button onClick={(e) => handleClick(e, item)}>Add to cart</button>
+<button  className="ProductButton"onClick={(e) => handleClick(e, item)}>Add to cart</button>
     </div>
 )
 

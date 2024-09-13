@@ -1,16 +1,16 @@
-*{
-padding: 0px;
-margin: 0px;
-box-sizing: border-box;
-}
-
-.BookingContainer{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .BookingContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 0.2rem;
-    padding: 0,50px;
+    padding: 50px; 
     background-image: url(./darjeeling/booking.jpg);
     height: 100vh;
     width: 100%;
@@ -18,72 +18,53 @@ box-sizing: border-box;
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(229, 226, 220, 0.5);
-   
-}
-.BookingInput>label>input:hover{
-    color: #18E000;
-    font-weight: bold;
-    ;
-    
-}
-.BookingInput{
+  }
+  
+  .BookingInput {
     display: flex;
     flex-direction: column;
-    outline: none;
     width: 30rem;
-
-}
-
-.BookingInput>input{
+  }
+  
+  .BookingInput label {
+    color: blue;
+  }
+  
+  .BookingInput input {
     padding: 0.5rem;
     margin-bottom: 1rem;
-    outline: none;
     border: none;
     height: 2.5rem;
-}
-.BookingInput>:focus{
+  }
+  
+  .BookingInput input:focus {
     border-bottom: 0.5rem solid #18E000;
-    border: 0px solid transparent(0, 0, 0, 0.0);
-}
-.BookingDate{
+  }
+  
+  .BookingDate {
     display: flex;
     flex-direction: column;
-    outline: none;
     width: 30rem;
-}
-.BookingDate>DatePicker{
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    outline: none;
-    border: none;
-    height: 2.5rem;
-}
-.BookingInput>label{
-color: blue;
-}
-.BookingDate{
     padding: 1rem;
-    
-    outline: none;
-    border: none;
-    height: 20rem;
-    gap:1rem;
-    
-}
-
-.react-datepicker__input-container>.value{
-    gap:1rem;
-    background-color: black;
-
-}
-
-
-.bookingbutton{
+    gap: 1rem;
+  }
+  
+  .BookingDate .react-datepicker-wrapper {
+    padding: 0.5rem;
+  }
+  
+  .bookingbutton {
     height: 2.5rem;
     width: 20rem;
     margin: 1rem;
     border-radius: 5px;
-}
-.bookingbutton:hover{
+    border: none;
+    background-color: #18E000; /* Added background color */
+    color: white; /* Added text color */
+    cursor: pointer; /* Added cursor style */
+  }
+  
+  .bookingbutton:hover {
     background-color: rgb(34, 165, 8);
-}
+  }
+  

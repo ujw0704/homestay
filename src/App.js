@@ -9,12 +9,12 @@ import Register from "./Components/Register.js"
 import Booking from "./Components/Booking.js"
 import Product from "./Components/Product.js"
 import Footer from "./Components/Footer.js"
-
+import { useContext } from "react"
 
 
 
 function App() {
-  return (
+return (
     <div className="App">
     <div className="App">
       <BrowserRouter>
